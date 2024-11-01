@@ -49,7 +49,7 @@ export default function Movies(props) {
       {!loading && !error && movie && <MovieCard 
       titleToCard ={movie.Title ? movie.Title : "N/A"} 
       moviePlot ={movie.Plot ? movie.Plot : "Sorry! We don't have the plot of this movie. please check another details"}
-      moviePoster ={movie.Poster ? movie.Poster : "N/A"}
+      moviePoster ={movie.Poster ? movie.Poster : Photo}
       Released = {movie.Released ? movie.Released : "N/A"}
       Genre = {movie.Genre ? movie.Genre : "N/A"}
       Director = {movie.Director ? movie.Director : "N/A"}
